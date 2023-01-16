@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EnviromentProfileDemo</name>
+   <tag>@smoke</tag>
+   <comment></comment>
+   <testCaseGuid>b3fb77af-1346-4a81-92e9-c9292c5006f6</testCaseGuid>
+</TestCaseEntity>
