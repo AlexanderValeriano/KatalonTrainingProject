@@ -16,14 +16,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-
+def name = 'Alex'
+println 'My name is '+name
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://admin-demo.nopcommerce.com/login')
 
-WebUI.setText(findTestObject('Object Repository/Page_Your store. Login/input_Email_Email'), 'admin@yourstore.com')
+WebUI.setText(findTestObject('Object Repository/Page_Your store. Login/input_Email_Email'), username)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Your store. Login/input_Password_Password'), 'RAIVpflpDOg=')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Your store. Login/input_Password_Password'), password)
 
 WebUI.click(findTestObject('Object Repository/Page_Your store. Login/button_Log in'))
 
