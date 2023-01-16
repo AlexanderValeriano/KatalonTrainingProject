@@ -25,9 +25,9 @@ WebUI.click(findTestObject('Object Repository/Page_Your store. Login/button_Log 
 
 WebUI.switchToWindowTitle('Dashboard / nopCommerce administration')
 
-not_run: WebUI.click(findTestObject('Object Repository/Page_Dashboard  nopCommerce administration/p_Dashboard'))
+WebUI.click(findTestObject('Object Repository/Page_Dashboard  nopCommerce administration/p_Dashboard'))
 
-not_run: WebUI.click(findTestObject('Object Repository/Page_Dashboard  nopCommerce administration/p_Customers'))
+WebUI.click(findTestObject('Object Repository/Page_Dashboard  nopCommerce administration/p_Customers'))
 
 WebUI.click(findTestObject('Object Repository/Page_Dashboard  nopCommerce administration/a_Logout'))
 
