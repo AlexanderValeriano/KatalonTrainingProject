@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>a3436d1a-4f88-4639-82d7-53bc775a2820</webElementGuid>
+      <webElementGuid>282e01bf-fb47-4bab-b494-ce84ee12eb9c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Dashboard</value>
-      <webElementGuid>82a96379-8ad7-430e-ba23-2a09648fcc8d</webElementGuid>
+      <webElementGuid>adc566fa-55fe-4a71-bfd8-bc8a42657885</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;k-webkit k-webkit108&quot;]/body[@class=&quot;sidebar-mini layout-fixed control-sidebar-slide-open&quot;]/div[@class=&quot;wrapper&quot;]/aside[@class=&quot;main-sidebar sidebar-dark-primary elevation-4 sidebar-focused&quot;]/div[@class=&quot;sidebar os-host os-theme-light os-host-overflow os-host-overflow-y os-host-resize-disabled os-host-scrollbar-horizontal-hidden os-host-transition&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/nav[@class=&quot;mt-2&quot;]/ul[@class=&quot;nav nav-pills nav-sidebar flex-column nav-legacy&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link active&quot;]/p[1]</value>
-      <webElementGuid>e79460b1-0013-4d56-8e90-29be100de550</webElementGuid>
+      <webElementGuid>83967b55-9b53-486b-97b9-e1c8e7a2de4e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Clear cache'])[1]/following::p[1]</value>
-      <webElementGuid>534be896-dfec-421a-8f66-3e2bfeb71122</webElementGuid>
+      <webElementGuid>18da86ae-6d95-4900-b938-8109870ae33b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/following::p[1]</value>
-      <webElementGuid>7e0d28f9-b913-4a5d-99d7-58f5cda46ee2</webElementGuid>
+      <webElementGuid>247b0b1b-0546-455d-b416-bbfae03fdb26</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[2]/preceding::p[107]</value>
-      <webElementGuid>04d5ac97-7898-448b-9450-170ed4b5659c</webElementGuid>
+      <webElementGuid>ed62eeae-725c-4f14-bf69-44ca36388b0e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Dashboard']/parent::*</value>
-      <webElementGuid>0c9d5efe-aa3b-41d7-98a0-ba8ded2ba445</webElementGuid>
+      <webElementGuid>dfdd45b0-8d41-4a75-a640-7851691cc2f6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a/p</value>
-      <webElementGuid>558e1918-fdcc-419f-b887-f79d964b0cae</webElementGuid>
+      <webElementGuid>6a6b4b73-05e7-41a7-a020-6f40547387c5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = ' Dashboard' or . = ' Dashboard')]</value>
-      <webElementGuid>95e6d5d3-20c5-4ab2-8cde-458949ac554c</webElementGuid>
+      <webElementGuid>e18b2b5b-8ac8-470c-8546-a5f9c61f4628</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

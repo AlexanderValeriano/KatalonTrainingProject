@@ -32,4 +32,23 @@
       <testCaseId>Test Cases/DemoTests/Test1_RecordMode</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>c5deb20d-61b2-4e93-b798-004a1b702960</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/DemoTests/DataDrivenDemo</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>11214f5d-6a96-44bc-a31c-eb1fc3eaa126</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8d223177-0174-4d03-a034-87c12f9baa19</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>
