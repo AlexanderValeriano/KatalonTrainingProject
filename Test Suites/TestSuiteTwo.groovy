@@ -28,39 +28,25 @@ import com.kms.katalon.core.annotation.TearDownTestCase
  * Some methods below are samples for using SetUp/TearDown in a test suite.
  */
 
-/**
- * Setup test suite environment.
- */
-@SetUp(skipped = true) // Please change skipped to be false to activate this method.
+
+@SetUp(skipped = false) 
 def setUp() {
-	// Put your code here.
+	println 'i am inside Suite SetUp'
 }
 
-/**
- * Clean test suites environment.
- */
-@TearDown(skipped = true) // Please change skipped to be false to activate this method.
+
+@TearDown(skipped = false) 
 def tearDown() {
-	// Put your code here.
+	println 'i am inside Suite TearDown'
 }
 
-/**
- * Run before each test case starts.
- */
-@SetupTestCase(skipped = true) // Please change skipped to be false to activate this method.
+
+@SetupTestCase(skipped = false) 
 def setupTestCase() {
-	// Put your code here.
+	println 'i am inside Suite SetUpTestCase'
 }
 
-/**
- * Run after each test case ends.
- */
-@TearDownTestCase(skipped = true) // Please change skipped to be false to activate this method.
+@TearDownTestCase(skipped = false) 
 def tearDownTestCase() {
-	// Put your code here.
+	println 'i am inside Suite TearDownTestCase'
 }
-
-/**
- * References:
- * Groovy tutorial page: http://docs.groovy-lang.org/next/html/documentation/
- */
