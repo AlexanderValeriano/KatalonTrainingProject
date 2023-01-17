@@ -25,7 +25,7 @@ WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_us
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_OrangeHRM/input_Password_password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
 
-WebUI.verifyTextPresent('ABC123', false, FailureHandling.OPTIONAL)
+WebUI.verifyTextPresent('ABC123', false, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/button_Login'))
 
